@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game {
+    width:500px;
+    height: 500px;
+    margin:0 auto;
+    outline: 1px solid;
+    overflow: hidden;
+  }
+
+  .game div {
+    width:100px;
+    height:100px;
+    display:inline-block;
+    background:blue;
+    margin: 10px;  
+  }
+  
+  .game div img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+
