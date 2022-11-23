@@ -20,8 +20,12 @@ email = email.value;
 localStorage.setItem('email', email)
 password = password.value;
 localStorage.setItem('password', password)
-return; 
+
 });
 
-console.log(localStorage.getItem('email'))
+console.log(localStorage.getItem('first-name'))
+console.log(localStorage.getItem('last-name'))
 console.log(localStorage.getItem('password'))
+
+
+
