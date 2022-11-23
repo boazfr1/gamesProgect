@@ -1,0 +1,22 @@
+.sign-form{
+    border: 1px solid black ;
+    border: 20px solid rgb(234, 223, 223);
+    border-radius: 20px;
+    padding:90px;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(228, 218, 204);
+}
+.sign-div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+    font-size: xx-large;
+    text-decoration-line: underline;
+}
+body{
+    background-color: rgb(130, 191, 191);
+}
+h1{
+    text-align: center;
+    
+}
