@@ -19,3 +19,33 @@ body{
 h1{
     text-align: center; 
 }
+#mainGamesFolder{
+    border: 1px solid black ;
+    border: 20px solid rgb(234, 223, 223);
+    border-radius: 20px;
+    padding:90px;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(228, 218, 204);
+    display: flex;
+    justify-content: center;
+    
+}
+.gameConection{
+    background-color: rgb(82, 216, 233);
+    margin: 20px;
+    border-radius: 20px;
+}
+.gameConection img{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+.gameConection p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-decoration-line: underline;
+}
