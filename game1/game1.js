@@ -1,23 +1,23 @@
-// check.addEventListener("click", checkIfRed);
+const myCard = document.querySelectorAll(".gamePic");
+const frontImg = document.querySelector(".frontImg")
 
-// let myDivsArr = document.querySelectorAll(".game div");
-// let fatherDiv = document.querySelector(".game");
-// let counter = 0;
+function turnImg() {
+    this.classList.toggle("flip");
+    console.log(this.classList);
+    
+}
 
-
-
-// function fillColor() {
-//     let rand = Math.floor(Math.random() * myDivsArr.length);
-//     while (myDivsArr[rand].className === "winner") {
-//         rand = Math.floor(Math.random() * myDivsArr.length);
-//     }
-//     myDivsArr[rand].className = "winner";
-//     counter++;
-//     console.log(counter);
-//     if (counter > 8) {
-//         return alert("game over");
-//     }
-
+// function changeImg() {
+//     let specificClass = document.querySelector("this");
+//     console.log(specificClass);
+//     this.backImg.style.display = "block";
 // }
 
-// fatherDiv.addEventListener("click", fillColor);
+myCard.forEach(card => card.addEventListener("click", turnImg));
+// myCard.forEach(card => card.addEventListener("click", changeImg));
+
+
+
+
+
+

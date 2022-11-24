@@ -1,31 +1,32 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: darkgray;
-    
+    background-color: rgb(130, 191, 191);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
-.game {
-    width:500px;
-    height: 500px;
-    margin:0 auto;
-    outline: 1px solid;
-    overflow: hidden;
-  }
+.game{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
 
-  .game div {
-    width:100px;
-    height:100px;
-    display:inline-block;
-    background:blue;
-    margin: 10px;  
-  }
-  
-  .game div img{
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    display: none;
-  }
-
+}
+.gamePic{
+    width: 150px;
+    height: 170px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.frontImg, .backImg{
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    backface-visibility: hidden;
+}
