@@ -17,7 +17,7 @@ body{
     background-color: rgb(130, 191, 191);
 }
 h1{
-<<<<<<< HEAD
+
     text-align: right; 
     text-decoration-line: underline;
    
@@ -39,8 +39,7 @@ position: fixed;
     width: 100%;
     height: 120px;
     background-color: rgb(176, 166, 153);
-}
-=======
+
     text-align: center; 
 }
 #mainGamesFolder{
@@ -73,4 +72,3 @@ position: fixed;
     font-size: large;
     text-decoration-line: underline;
 }
->>>>>>> cebfd39e2701c0385a0d077f095ac705c223f985
