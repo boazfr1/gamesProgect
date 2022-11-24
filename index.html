@@ -8,28 +8,31 @@
     <title>Document</title>
 </head>
 <header>
-    <h1>games4play</h1>
+    <div id="divs"><img class="back" src="https://img.freepik.com/free-vector/flat-simple-gaming-twitter-header_23-2149231672.jpg?size=626&ext=jpg" alt="back"></div>
 </header>
 <body>
     <!-- place for log in -->
     <div id="logInArea">
-        <form class="sign-form">
-            <div class="sign-div">Log in:</div><br>
+        <form class="sign-form" action="/gamesFolder.html">
+            <h1 id="homePageHeader">games4play</h1>
+
+            <div id="local" class="sign-div",>Log in:</div><br>
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname" required><br>
                 <label for="pwd">Password:</label><br>
                 <input type="password" id="pwd" name="pwd" required><br>
-               <a href="/gamesFolder.html"><button type="button">Connect</button></a>
+                <input class="input" id="input1" type="submit" value="Log In">
                 <input type="reset">
                 <p>If you are not registered <a href="/java project/sign.html">craete account!</a> </p>
-          </fieldset>
+          
         </form> 
     </div>
 </body>
 <footer>
     <p>"with thechnology comes responsibility." (Slomoh Kipnis)</p>
+    <img class="footerclass" src="https://cdn.pixabay.com/photo/2012/04/26/14/17/blue-42596_1280.png" alt="footer">
 
     <script src="/java project/js.js/js.js"></script>
 </footer>
